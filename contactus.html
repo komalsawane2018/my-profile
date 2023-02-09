@@ -1,39 +1,134 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> Contact Us </title>
-        <!-- CDN link -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <h2> Contact Us </h2>
-        <form>
-            <table>
-                <tbody>
-                    <tr>
-                        <td> <b> Full Name: </b></td>
-                        <td> <input type="text" placeholder="Max character length=10"></td>
-                    </tr>
-                    <tr>
-                        <td><b> Mobile No:</b></td>
-                        <td><input type="tel"></td>
-                    </tr>
-                    <tr>
-                        <td><b> Email: </b></td>
-                        <td> <input type="email" placeholder="Ex.abc@gmail.com"></td>
-                    </tr>
-                    <tr>
-                        <td><b> Enquiry:</b></td>
-                        <td><textarea rows="8" cols="40"></textarea></td>
-                    </tr>
-                    <tr>
-                        <td><input type="submit"></td>
-                        <td><input type="reset" value="clear"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </form>
-        <strong> Follow Me &nbsp; </strong><i class="fa fa-facebook-square " aria-hidden="true"></i>
-    </body>
+  <head>
+    <title>Contact Us</title>
+    <!-- CDN link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      b,strong {
+        font-family: "Merriweather Sans", sans-serif;
+        margin-right:20px;
+        text-align: center;
+        
+      }
+     body h2{
+        text-align:center;
+        background-color:#f1f2f6;
+        border: 2px solid brown;
+        font-family: fantasy;
+        color: blue;
+        font-size:xx-large;
+    }
+        input[type="text"]{
+            color:#ff4d4d;
+          
+            border: 1px solid blueviolet;
+            border-width: 3px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            padding-left: 50px;
+            padding-top: 10px;
+   }
+        input[type="tel"]{
+            color:#ff4d4d;
+            border: 1px solid blueviolet;
+            border-width: 3px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            padding-left: 50px;
+            padding-top: 10px;
+          
+     }
+        input[type="email"]{
+            color:#ff4d4d;
+            border: 1px solid blueviolet;
+            border-width: 3px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            padding-left: 50px;
+            padding-top: 10px;
+          
+         }
+         textarea[rows="8"]{
+           
+            border: 1px solid blueviolet;
+            border-width: 3px;
+            border-radius: 10px;    
+            margin-bottom: 10px;
+            padding-left: 50px;
+            padding-top: 10px;
+          
+         }
+         input[type="submit"]{
+            border: 1px solid rgb(9, 1, 17);
+            border-width: 3px;
+            border-radius: 10px;  
+            background-color: #0be881;
+            font-size:15px;
+            margin-bottom: 10px;
+            padding-left: 50px;
+            padding-top: 10px;
+            margin-right: 30px;
+          
+          
+          
+         }
+         input[type="reset"]{
+            border: 1px solid rgb(9, 1, 17);
+            border-width: 3px;
+            border-radius: 10px;  
+            background-color:#ef5777;
+            padding-right: 20px;
+            font-size:15px;
+            margin-bottom: 10px;
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        body form{
+            text-align: center;
+        }
 
+
+    </style>
+  </head>
+  <body>
+   <h2> Contact Us</h2>
+    <form>
+      <table>
+        <tbody style="text-align: center;">
+          <tr>
+            <td><b> Full Name: </b></td>
+            <td><input type="text" placeholder="Max character length=10" /></td>
+          </tr>
+          <tr>
+            <td><b> Mobile No:</b></td>
+            <td><input type="tel"/></td>
+          </tr>
+          <tr>
+            <td><b> Email: </b></td>
+            <td><input type="email" placeholder="Ex.abc@gmail.com" /></td>
+          </tr>
+          <tr>
+            <td><b> Enquiry:</b></td>
+            <td><textarea rows="8" cols="40"></textarea></td>
+          </tr>
+          <tr>
+            <td><input type="submit" /></td>
+            <td><input type="reset" value="Clear" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <strong style="margin-left: 20px; color: darkviolet;"> Follow Me </strong
+    ><i class="fa fa-facebook-square" aria-hidden="true"></i>
+  </body>
 </html>
